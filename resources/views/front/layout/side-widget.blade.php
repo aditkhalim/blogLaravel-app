@@ -2,7 +2,7 @@
     {{-- LOGIN AS WRITER --}}
     <div class="card mb-4 shadow-sm">
         <div class="card-header">Wanna write an article?
-            <a href="{{ url('login') }}" class="btn btn-outline-success ">Login</a>
+            <a href="{{ url('login') }}" class="btn btn-outline-success">Login</a>
         </div>
     </div>
     <!-- Search widget-->
