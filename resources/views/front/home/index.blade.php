@@ -21,7 +21,7 @@
                                 {{ $latest_post->User->name }}
                             </div>
                             <h2 class="card-title">{{ $latest_post->title }}</h2>
-                            <p class="card-text">{{ Str::limit(strip_tags($latest_post->desc), 100, '...') }}</p>
+                            <p class="card-text">{!! Str::limit(strip_tags($latest_post->desc), 200, '...') !!}</p>
                             <a class="btn btn-primary" href="{{ url('p/'.$latest_post->slug) }}">Read more →</a>
                         </div>
                     </div>
